@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/votre-nom-utilisateur/tp3-ci-tests.git'
+                git branch: 'main', url: 'https://github.com/gaderOussama/tp3-devops.git'
             }
         }
 
